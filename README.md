@@ -1,30 +1,22 @@
-# RN_Game_CandyCrush
+### We implemented Candy Crush game using match 3 algorithm in React native.
 
-### React native 로 match 3 알고리즘을 활용하여 Candy Crush 게임을 구현했습니다.
-
-### 데모 영상 링크
+### Link to demo video
 
 https://youtu.be/vwyiWd_FKLE
 
-### 구현 사항
+### Implementation
 
-- [x] Progress 타이머
-- [x] 잘못 된 이동 방지
-- [x] 일치한 타일의 갯수에 비례한 점수 계산
-- [x] 이동 횟수 계산
-- [x] 이동 가능한 타일이 있는지 검사 후 없으면 타일 재배치
-- [x] 초기 타일 배치 시 연속된 색깔의 타일이 배치되지 않도록
+- [x] Progress Timer
+- [x] prevent erroneous movement
+- [x] Calculate a score proportional to the number of matching tiles
+- [x] count the number of moves
+- [x] Check if there is a moveable tile, and if not, rearrange the tile
+- [x] Prevent tiles of consecutive colors from being placed during initial tile placement
 
-### 추가 구현 사항
+### Additional Implementations
 
-- [ ] 난이도 구현
-- [ ] 애니메이션 고도화
-- [ ] 코드 리팩토링
-- [x] 엄격한 타입 설정
-- [x] 타일 연쇄 폭발 가능 하도록
-
-### References
-
-https://rembound.com/articles/how-to-make-a-match3-game-with-html5-canvas
-
-https://itnext.io/react-native-candy-crush-clone-c41a797fed0a
+- [ ] Difficulty implementation
+- [ ] animation enhancement
+- [ ] code refactoring
+- [x] set strict type
+- [x] To enable tile chain explosion
